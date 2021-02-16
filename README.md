@@ -10,7 +10,6 @@ the success or failure of the test.
   They must be excluded from the analysis.
 - We should check for data sanity: missing data, duplicated ids, date column might have bad format and so on.
 
-
 # Results
 - We have only 5 days of data. The power test shows that we need about 10,702,928 data for each group (test and control). So we must conduct the A/B test for few more
 months to obtain more data.
@@ -23,8 +22,9 @@ for each countries, rather than overall data.
 
 
 # EDA
-![](images/test_vs_conversion.png)
-![](images/country_vs_conversion.png)
-![](images/country_test_vs_control.png)
-![](images/browser_test_vs_control.png)
-![](images/ads_channel_test_vs_control.png)
+
+<img src="images/test_vs_conversion.png" alt="" width="800"/>
+<img src="images/country_vs_conversion.png" alt="" width="800"/>
+<img src="images/country_test_vs_control.png" alt="" width="800"/>
+<img src="images/browser_test_vs_control.png" alt="" width="800"/>
+<img src="images/ads_channel_test_vs_control.png" alt="" width="800"/>
